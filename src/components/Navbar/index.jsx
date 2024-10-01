@@ -6,7 +6,7 @@ function Navbar() {
       <ul class="flex gap-5 text-slate-800 font-semibold">
         <li>
           <NavLink
-            to={`/menu`}
+            to={`/`}
             class={({ isActive }) => (isActive ? "text-amber-400" : "")}
           >
             Menu

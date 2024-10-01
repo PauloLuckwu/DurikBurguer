@@ -10,18 +10,12 @@ import Button from '../Button'
 
             {/* navbar  */}
             <Navbar/>
-
-
-            {/* logo */}
-            <h2 class='text-2x1 font-bold'>Durok Burguer</h2>
-
+            
             <div class='flex gap-5 items-center'>
                 {/* botão login/registro */}
                 <Button 
-                        className="bg-amber-400 rounded px-3 py-2 text-slate-800 font-semibold text-sm cursor-pointer hover:bg-amber-500"
-                        
+                        className="bg-amber-400 rounded px-3 py-2 text-slate-800 font-semibold text-sm cursor-pointer hover:bg-amber-500"                       
                     >
-                        {/* onClick={() => setShowAuthModal(!showAuthModal)} */}
                         <span className='mr-2'>Login / Registre-se</span>
                         <Person28Regular />
                 </Button>
