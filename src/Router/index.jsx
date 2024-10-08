@@ -12,6 +12,7 @@ function Router() {
 
         <Routes>
                 <Route exac path='/' element={<Menu/>}/>
+                <Route exac path='/:filter?' element={<Menu/>}/>
                 <Route exac path='/checkout' element={<Checkout/>}/>
                 <Route exac path='/ordes' element={<Orders/>}/>
         </Routes>
