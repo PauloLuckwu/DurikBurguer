@@ -10,7 +10,7 @@ export const allproducts = [
         // imageUrl: ,
         new: false,
         promotion: false,
-        quantityAvaiable: 15,
+        quantityAvaiable: 25,
     },
 
     {
@@ -40,18 +40,17 @@ export const allproducts = [
         promotion: true,
         quantityAvaiable: 15,
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+        id: 4,
+        type: 'pizza',
+        name: 'King',
+        description: 'Pão artesanal, smash burguer de 320G, molho especial e muito bacon',
+        price: 29.90,
+        priceWithDiscount: 24.90,
+        numOfEaters: 1,
+        // imageUrl: ,
+        new: false,
+        promotion: true,
+        quantityAvaiable: 15,
+    },
 ]
